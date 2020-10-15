@@ -1,0 +1,1 @@
+docker run -it -d -p 8080:80 --name github-mock-web -v ${PWD}:/usr/share/nginx/html nginx:stable-alpine
