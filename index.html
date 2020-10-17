@@ -15,13 +15,13 @@
                         <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
                     </svg>
                 </a>
-                <div class="relative">
+                <div class="relative hidden lg:block">
                     <input type="text" name="" id="" placeholder="Search or jump too..." class="rounded bg-gray-700 placeholder-white w-64 px-3 py-1">
                     <div class="absolute top-0 right-0 flex items-center h-full">
                         <div class="border border-gray-600 rounded text xs text-gray-400 px-2 mr-2">/</div>
                     </div>
                 </div>
-                <ul class="flex items-center font-semibold space-x-4">
+                <ul class="hidden lg:flex items-center font-semibold space-x-4">
                     <li><a href="#" class="hover:text-gray-400">Pull Requests</a></li>
                     <li><a href="#" class="hover:text-gray-400">Issues</a></li>
                     <li><a href="#" class="hover:text-gray-400">Marketplace</a></li>
@@ -35,7 +35,7 @@
                     </svg>
                     <div class="bg-blue-600 rounded-full w-2 h-2 absolute top-0 right-0"></div>
                 </a>
-                <a href="#" class="flex items-center hover:text-gray-400">
+                <a href="#" class="hidden lg:flex items-center hover:text-gray-400">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
@@ -43,7 +43,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </a>
-                <a href="#" class="flex items-center hover:text-gray-400">
+                <a href="#" class="hidden lg:flex items-center hover:text-gray-400">
                     <img alt="@ezzamel156" width="20" height="20" 
                         src="https://avatars3.githubusercontent.com/u/19977029?s=60&amp;v=4" 
                         class="w-5 h-5 rounded-full">
@@ -54,7 +54,7 @@
             </div>
         </nav>
         <div class="bg-gray-100">
-            <div class="repo-stats flex items-center justify-between px-8 py-4">
+            <div class="repo-stats flex lg:items-center flex-col lg:flex-row justify-between px-8 py-4">
                 <div class="flex items-center">
                     <svg class="w-4 h-4 fill-current text-gray-600" viewBox="0 0 16 16" aria-hidden="true">
                         <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
@@ -65,7 +65,7 @@
                         <a href="#" class="text-blue-600 hover:underline ml-1 font-semibold">tailwindcss</a>
                     </div>
                 </div>
-                <div class="flex space-x-2 text-xs">
+                <div class="flex space-x-2 text-xs mt-4 lg:mt-0">
                     <div class="flex">
                         <button class="border hover:bg-gray-200 transition ease-in-out duration-150 border-gray-400 rounded rounded-r-none px-3 py-1 flex items-center space-x-1">
                             <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -126,7 +126,7 @@
                         <span class="text-xs rounded-lg bg-gray-300 px-2 ml-1">156</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4  text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -135,7 +135,7 @@
                         <span class="ml-1">Actions</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -143,7 +143,7 @@
                         <span class="ml-1">Projects</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -151,7 +151,7 @@
                         <span class="ml-1">Wiki</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -159,7 +159,7 @@
                         <span class="ml-1">Security</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -167,7 +167,7 @@
                         <span class="ml-1">Insights</span>
                     </a>
                </li>
-                <li>
+                <li class="hidden lg:block">
                     <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
                         <svg class="w-4 h-4 text-gray-600"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -178,8 +178,8 @@
                </li>        
             </ul> <!-- end repo-nav -->
         </div>
-        <div class="container mx-auto my-8 px-4 flex">
-            <div class="file-explorer-container w-3/4 mr-8">
+        <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
+            <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
                 <div class="branch-navigation flex items-center justify-between">
                     <div class="flex items-center space-x-3">
                         <button class="bg-gray-100 border hover:bg-gray-200 transition ease-in-out duration-150 border-gray-400 rounded px-3 py-1 flex items-center space-x-1">
@@ -192,7 +192,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </button> 
-                        <a href="#" class="flex items-center space-x-1 group">
+                        <a href="#" class="lg:flex items-center space-x-1 group hidden">
                             <svg class="w-4 h-4 text-gray-600 group-hover:text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -200,7 +200,7 @@
                             <span class="font-semibold group-hover:text-blue-600">1</span>
                             <span class="group-hover:text-blue-600 text-gray-600">branches</span>
                         </a>   
-                        <a href="#" class="flex items-center space-x-1 group">
+                        <a href="#" class="lg:flex items-center space-x-1 group hidden">
                             <svg class="w-4 h-4 text-gray-600 group-hover:text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                             </svg>
@@ -208,7 +208,7 @@
                             <span class="group-hover:text-blue-600 text-gray-600">tags</span>
                         </a>                      
                     </div>
-                    <div class="flex items-center space-x-2">
+                    <div class="hidden lg:flex items-center space-x-2">
                         <button class="border bg-gray-100 hover:bg-gray-200 transition ease-in-out duration-150 border-gray-400 rounded-md px-4 py-1 flex items-center space-x-1">                            
                             <div class="font-semibold">Go to file</div>
                         </button> 
@@ -306,19 +306,19 @@
 
                 <div class="readme-container border border-gray-400 rounded-md mt-5">
                     <div class="readme-header flex justify-between px-4 py-4">
-                        <h4 class="font-semibold">readme.md</h4>
+                        <h4 class="font-semibold">README.md</h4>
                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                         </svg>
                     </div>
-                    <div class="readme-body px-8 pt-4 pb-8"> 
+                    <div id="readme-body" class="prose max-w-none readme-body px-8 pt-4 pb-8"> 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam molestias culpa nemo hic dicta assumenda necessitatibus similique, aperiam veniam! Deleniti, iusto. Ipsum et itaque quos aliquid, cumque est repellendus.
                     </div>
-                </div>
+                </div> <!-- readme-container end -->
             </div> <!-- file-explorer-container end-->
 
-            <div class="sidebar w-1/4">
-                <div class="about">
+            <div class="sidebar w-full lg:w-1/4">
+                <div class="about mt-4 lg:mt-0">
                     <h4 class="text-base font-semibold">About</h4>
                     <p class="text-base mt-4">
                         A utility-first CSS framework for rapid UI development.
@@ -486,7 +486,7 @@
                         </li>
                     </ul>
                 </div> <!-- languages end -->
-            </div>
+            </div> <!-- sidebar end -->
         </div>
         <footer class="container border-gray-300 border-t mx-auto text-xs py-10">
             <ul class="flex items-center justify-between w-full">
@@ -511,7 +511,15 @@
                 <li><a href="#" class="text-blue-600 hover:underline">About</a></li>            
             </ul>
         </footer>
-
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        fetch('/tailwindreadme.md')
+        .then(response => response.text())
+        .then((data) => {
+            document.getElementById('readme-body').innerHTML = marked(data);
+        })
+    </script>
+
 </body>
 </html>

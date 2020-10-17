@@ -13,6 +13,7 @@
   "author": "ezzamel alias",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
     "tailwindcss": "^1.8.10"
   }
 }
